@@ -9,7 +9,10 @@ env:
   INSTANCE: 'Writerside/hi'
   ARTIFACT: 'webHelpHI2-all.zip'
   DOCKER_VERSION: '233.14938'
-
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:
   build:
     runs-on: ubuntu-latest
