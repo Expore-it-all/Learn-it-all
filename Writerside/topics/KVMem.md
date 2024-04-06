@@ -1,6 +1,7 @@
-# Starting Out 
+# KVMem
 
-This is a learning exersise for my self. Join along if you want, but not be surprised if this doesn't work out!
+A Small Key-value Database in Rust.
+This is a learning exercise for my self. Join along if you want, but not be surprised if this doesn't work out!
 
 <warning>
 Also warning, I suck at spelling. So if there are typos, incorrect grammar, or other oddities, think of them as the spice of life and not that I have become dependent on spell check to save my butt.
@@ -52,30 +53,13 @@ Make sure that:
 I am using RustRover for this project. <i>Yes I shilled out for suite of tools from Intellij. No I currently do not regret it.</i>
 You can use VSCode or any other editor you want. I just will not be providing any other information about them.
 
-Also for writing this document, I am using WriterSide, _again from Intellij_, so if you want to see the source it is found [here](https://github.com/Expore-it-all/KVMem).
+I unfortunately am developing on Windows.
+
+<img alt="3ep50m-1498200504.jpg" height="250" src="3ep50m-1498200504.jpg" title="Funny Cat Meme saying Yuck" width="250"/>
+
+I am hoping to finish some classes and move over to a Linux system soon, but for now its NT Kernel for me.
 
 
-## Part 1 - Init project, the Sisyphus of development
-
-Starting out we to start out our project. 
-
-1. Execute the following command in the terminal:
-
-   ```bash
-    run this --that
-   ```
-
-2. Step with a [link](https://www.jetbrains.com)
-
-3. Final step in part 1.
-
-## Part 2
-
-This is the second part of the tutorial:
-
-1. Step 1
-2. Step 2
-3. Step n
 
 ## What you've learned {id="what-learned"}
 
