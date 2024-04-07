@@ -14,5 +14,13 @@ Starting out we want to generate our project. Assuming that you actually read th
    ```Bash
    cargo run
    ```
+3. You should have a dir that has `main.rs` in it. It should looks something simular to:
+   ```Rust
+   fn main() {
+   // Statements here are executed when the compiled binary is called.
 
+   // Print text to the console.
+   println!("Hello World!");
+   }
+   ```
 Simple Right? Well lets get to programing!

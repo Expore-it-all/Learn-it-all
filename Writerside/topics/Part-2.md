@@ -1,6 +1,8 @@
 # Part 2 
 _- Look at me Ma! No Hands!_
-
+<warning>
+Unfinished!
+</warning>
 Now that the easy things are done, we can start to look at what we need to do for this project.
 
 First off, we are doing a database. We need to understand that we have two major entities. We have the `Client` and the `Server`.
@@ -16,9 +18,27 @@ I'm not going to go into depth on what TCP means or the low level work of it. _I
 We are doing this quick and dirty right now, so no multi threading and KISS all the way!
 
 In Rust when we want to listen to a socket for incoming connections we can use the TcpListener.
+> We are going to use port 5656 for this project.
+```Rust
+let listener = TcpListener::bind("127.0.0.1:5656").unwrap();
 ```
-let listener = TcpListener::bind("127.0.0.1:7878").unwrap();
+
+Our main file should now look like:
+
+```Rust
+use std::net::TcpListener;
+
+fn main(){
+    let listener = TcpListener::bind("127.0.0.1:8080").unwrap();
+
+}
 ```
-<warning>
-Unfinished!
-</warning>
+
+Now We want to get a list of incoming connections. 
+
+We can do that through
+```Rust
+for stream in listener.incoming()
+```
+> Though that we are doing these one at a time, which is bad for a database, we are going ahead with this for now to better understand the interactions.
+
