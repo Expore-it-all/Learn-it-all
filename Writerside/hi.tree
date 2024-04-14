@@ -10,8 +10,8 @@
     <toc-element topic="Projects.md">
         <toc-element topic="KVMem.md">
             <toc-element topic="Part-1.md"/>
-            <toc-element topic="Part-2.md">
-            </toc-element>
+            <toc-element topic="Part-2.md"/>
+            <toc-element topic="Part-3.md"/>
         </toc-element>
     </toc-element>
 

@@ -15,7 +15,7 @@ Starting out we want to generate our project. Assuming that you actually read th
    cargo run
    ```
 3. You should have a dir that has `main.rs` in it. It should looks something simular to:
-   ```Rust
+   ```rust
    fn main() {
    // Statements here are executed when the compiled binary is called.
 
